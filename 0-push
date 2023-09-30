@@ -3,3 +3,4 @@ git add $@
 read -p " GIVE ME YOUR COMMIT MESSAGE :  " m
 git commit -m "$m"
 git push
+# am 2001
