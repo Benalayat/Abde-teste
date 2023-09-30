@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "\e[3mhello motherfucku\e[0m"

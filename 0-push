@@ -1,6 +1,7 @@
 #!/bin/bash
 git add $@
-read -p " GIVE ME YOUR COMMIT MESSAGE :  " m
+echo -e "\e[3mGIVE ME YOUR COMMIT MESSAGE : \e[0m"
+read -p "" m
 git commit -m "$m"
 git push
 # am 2001
